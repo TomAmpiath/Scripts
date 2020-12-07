@@ -9,7 +9,7 @@ echo ""
 echo "Sorting Imports"
 echo ""
 
-/usr/bin/isort --recursive $1
+/usr/bin/isort $1
 
 echo ""
 echo "Formatting Code"
